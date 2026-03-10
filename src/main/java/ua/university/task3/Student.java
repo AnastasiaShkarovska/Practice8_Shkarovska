@@ -38,6 +38,8 @@ public class Student {
         return Objects.hash(id);
     }
 
+
+
     @Override
     public String toString() {
         return "Student{id='" + id + "', name='" + name + "', email='" + email + "'}";
